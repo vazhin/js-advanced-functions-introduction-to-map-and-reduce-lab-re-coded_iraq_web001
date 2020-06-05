@@ -4,10 +4,18 @@ function mapToNegativize(sourceArray) {
   sourceArray.forEach(item => {
     newArr.push(item * -1)
   })
+<<<<<<< HEAD
+=======
+  // for(element of sourceArray) {
+  //   let negativizeElement = (element * -1)
+  //
+  // }
+>>>>>>> d83284a19c39d90afd3b0c0e3f883df80223f8fd
   return newArr
 }
 
 function mapToNoChange(sourceArray) {
+<<<<<<< HEAD
   let newArr = [...sourceArray]
   return newArr
 }
@@ -59,4 +67,7 @@ function reduceToAnyTrue(sourceArray) {
     }
   })
   return truthy
+=======
+
+>>>>>>> d83284a19c39d90afd3b0c0e3f883df80223f8fd
 }
